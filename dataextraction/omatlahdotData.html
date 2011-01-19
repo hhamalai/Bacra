@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+<head>
+<title>HKL Omat lähdöt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link href="mobile/pages/kimono.css" rel="stylesheet" type="text/css">
+
+ <script type="text/javascript" src="jquery-1.3.2.min.js"></script>          
+ <script type="text/javascript">        
+ $(document).ready(function(){
+ 
+ /*var tmp = $('span[class=departures_title]').text()+';<br/>'; 
+ //$('tr').each(function(i){
+	$(this).find('td[class=departures_col_text]').each(
+		function(j){ 
+			if($(this).attr('width') == '30%'){ 
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '20%')
+			{
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '50%')
+			{
+				tmp += $(this).text()+'#<br/>';
+			}
+		});
+	//}); 
+//test.testData(tmp);
+ $("#testBed").append(tmp);  */
+
+var tmp = $('span[class=departures_title]').text()+';'; 
+	$(this).find('td[class=departures_col_text]').each(
+		function(j){ 
+			if($(this).attr('width') == '30%'){ 
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '20%')
+			{
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '50%')
+			{
+				tmp += $(this).text()+'#';
+			}
+		});
+//test.testData(tmp);
+ $("#testBed").append(tmp); 
+}); 
+
+/*var tmp = $('span[class=departures_title]').text()+';'; 
+	$(this).find('td[class=departures_col_text]').each(
+		function(j){ 
+			if($(this).attr('width') == '30%'){ 
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '20%')
+			{
+				tmp += $(this).text()+',';
+			}
+			if($(this).attr('width') == '50%')
+			{
+				tmp += $(this).text()+'#';
+			}
+		});
+test.testData(tmp)*/
+
+
+
+//var tmp = $('span[class=departures_title]').text()+';';$(this).find('td[class=departures_col_text]').each(function(j){if($(this).attr('width') == '30%'){ tmp += $(this).text()+',';}if($(this).attr('width') == '20%'){tmp += $(this).text()+',';}if($(this).attr('width') == '50%'){tmp += $(this).text()+'#';}});test.testData(tmp);
+ </script>       
+
+</head>
+
+<body leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" scroll="auto">
+
+<div id="testBed" style="border: 1px solid #000;">
+</div>
+<form name="dataForm" action="web">
+<input type="hidden" name="view" value="mobile">
+         
+<table width="100%"  border="0" cellpadding="0" cellspacing="0">
+  <tr> 
+    <td class="menubackground">
+      <img src="images/square.gif" width="5" height="10" border="0"> <a href="web?view=mobile" class="navlink">Omat lähdöt etusivu</a>       
+    </td>
+
+  </tr>
+  <tr>      
+    <td width="*" valign="top" class="dataareabackground"> 
+     
+      
+      
+
+         
+
+
+    
+      
+      <br>
+             <span class="departures_col_title">Tilanne:</span> 
+             <input class="logininput" type="text" name="hh" size="2" maxlength="2" value="17">
+             :
+             <input class="logininput" type="text" name="mm" size="2" maxlength="2" value="59">
+             <input type="hidden" name="command" value="departures">
+             <input type="hidden" name="refresh" value="refresh">
+
+             
+             
+             <input type="submit" name="Submit" value="Hae" class="submit_button">       
+      <HR>
+     
+      <span class="departures_title">Rautatientori (2046)</span>
+        	
+      
+      <table width="100%" border="0" cellspacing="0" cellpadding="0"> 
+        
+        <tr class="departures_row_1"> 
+          <td width="30%" class='departures_col_text'>18:14</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+
+        
+        <tr class="departures_row_2"> 
+          <td width="30%" class='departures_col_text'>18:30</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_1"> 
+          <td width="30%" class='departures_col_text'>18:46</td>
+          <td width="20%" class='departures_col_text'>68</td>
+
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_2"> 
+          <td width="30%" class='departures_col_text'>19:02</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_1"> 
+          <td width="30%" class='departures_col_text'>19:18</td>
+
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_2"> 
+          <td width="30%" class='departures_col_text'>19:34</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+
+        
+        <tr class="departures_row_1"> 
+          <td width="30%" class='departures_col_text'>19:50</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_2"> 
+          <td width="30%" class='departures_col_text'>20:06</td>
+          <td width="20%" class='departures_col_text'>68</td>
+
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_1"> 
+          <td width="30%" class='departures_col_text'>20:24</td>
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+        <tr class="departures_row_2"> 
+          <td width="30%" class='departures_col_text'>20:42</td>
+
+          <td width="20%" class='departures_col_text'>68</td>
+          <td width="50%" class='departures_col_text'>Latokartano</td>         
+        </tr>
+        
+      </table>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0">
+             
+      </table>
+      
+      
+       
+      
+    
+    <a href="web?stopid=2046&Submit=Hae&command=quicksearch&view=mobile&refresh&now" class="nappilinkki"><img src="images/nuoli_oikealle.gif" width="11" height="13" border="0"> Päivitä tilanne</a>
+
+ 
+      
+
+
+
+
+        
+           
+            
+          </td>
+        </tr>
+</table>
+</form>
+</body>
+</html>
+
+
+
+ 
